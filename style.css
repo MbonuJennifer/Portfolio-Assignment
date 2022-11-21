@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #bcdbe3,
+    #b5d4e3,
+    #b3cbe3,
+    #b5c2e0,
+    #bab8da,
+    #c0b1d6,
+    #c7a9d0,
+    #cfa1c7,
+    #d89ac0,
+    #e192b7,
+    #e98bab,
+    #f0849d
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5rem 0; */
+  margin: 10rem 0;
+}
+.main-section {
+  width: 95vw;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 5rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5rem; */
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container2 .navbar-section {
+  margin-right: 35px;
+  color: black;
+}
+.navbar-brand {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav-btn {
+  padding: 5px 20px;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  /* margin- 0 20rem; */
+}
+.col-2 {
+  margin: 5rem;
+}
+.col-1{
+    margin: 5rem 8rem 5rem 0;
+}
+.heading-col-1{
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+.nav-btn .navbar-button {
+  color: white;
+}
+.col-img {
+  width: 35rem;
+  height: 20rem;
+}
