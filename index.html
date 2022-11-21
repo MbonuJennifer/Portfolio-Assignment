@@ -15,18 +15,22 @@
         </div>
         <div class="container2">
           <a class="navbar-section" href="#">Home</a>
-          <a class="navbar-section" href="#">About</a>
-          <a class="navbar-section" href="#">Contact</a>
+          <a class="navbar-section" href="#about">About</a>
+          <a class="navbar-section" href="#contact">Contact</a>
           <button class="nav-btn">
-            <a class="navbar-button" href="#">View Work</a>
+            <a class="navbar-button" href="#projects">View Work</a>
           </button>
         </div>
       </nav>
       <div class="row">
         <div class="col-1">
           <h3>Hi there!</h3>
-          <h5 class="heading-col-1">I am <span>Jennifer Mbonu</span> </h5>
-          <p>I am a geneticist turned tech enthusiast and advocate. I am super excited about building world-class solutions to simplify everyday living and boost the efficiency and productivity of end-users.</p>
+          <h5 class="heading-col-1">I am <span>Jennifer Mbonu</span></h5>
+          <p>
+            I am a geneticist turned tech enthusiast and advocate. I am super
+            excited about building world-class solutions to simplify everyday
+            living and boost the efficiency and productivity of end-users.
+          </p>
         </div>
         <div class="col-2">
           <img
@@ -36,59 +40,73 @@
           />
         </div>
       </div>
-      <div class="second-row">
+      <div class="second-row" id="about">
         <div class="col-3">
           <h3>More About Me</h3>
           <!-- <h5 class="heading-col-1">I am <span>Jennifer Mbonu</span> </h5> -->
-          <p>My experience developing and updating content for websites spurred my interest in transitioning into web development. I wanted to provide better services for my clients and enable them to convert leads into returning customers. Since then, I've taken both online and in-person classes while having fun along the way.</p>
+          <p>
+            My experience developing and updating content for websites spurred
+            my interest in transitioning into web development. I wanted to
+            provide better services for my clients and enable them to convert
+            leads into returning customers. Since then, I've taken both online
+            and in-person classes while having fun along the way.
+          </p>
         </div>
         <div class="col-4">
-            <h3>Skills</h3>
-            <div class="skills-wrap">
-              <button class="Skills">DOCUMENTATION</button>
-              <button class="Skills">COPYWRITING</button>
-              <button class="Skills">DESIGN</button>
-              <button class="Skills">HTML</button>
-              <button class="Skills">CSS</button>
+          <h3>Skills</h3>
+          <div class="skills-wrap">
+            <button class="Skills">DOCUMENTATION</button>
+            <button class="Skills">COPYWRITING</button>
+            <button class="Skills">DESIGN</button>
+            <button class="Skills">HTML</button>
+            <button class="Skills">CSS</button>
+            <p style="margin-top: 7px">
               <button class="Skills">JAVASCRIPT</button>
               <button class="Skills">BOOTSTRAP</button>
               <button class="Skills">SQL</button>
               <button class="Skills">ANGULAR</button>
               <button class="Skills">REACT</button>
               <button class="Skills">DIGITAL MARKETING</button>
-
-            </div>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="projects">
+      <div class="projects" id="projects">
         <h3>My Projects So Far</h3>
-        <p>Here are a few of my projects. It ha been a funride. Enjoy!</p>
+        <p class="projects-para">
+          Here are a few of my projects. It has been a funride. Enjoy!
+        </p>
         <div class="project-container">
-          <img src="images/Airtablecard.png" alt="" class="pic">
-          <img src="images/css-inheit.png" alt="" class="pic">
-          <img src="images/Css-prop.png" alt="" class="pic">
-          <img src="images/FavMeal.png" alt="" class="pic">
-
+          <img src="images/Airtablecard.png" alt="" class="pic" />
+          <img src="images/css-inheit.png" alt="" class="pic" />
+          <img src="images/Css-prop.png" alt="" class="pic" />
+          <img src="images/FavMeal.png" alt="" class="pic" />
         </div>
-        
-
       </div>
-      <div class="contact">
-        <h3>Contact me</h3>
-        <p>Any questions or remarks? Just send me a message.</p>
-        <label for="">Email</label>
-        <input type="email" name="" id="" />
-        <label for="">Full Name</label>
-        <input type="text" name="" id="" placeholder="John Doe" />
-        <label for="">Message</label>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Message"
-        ></textarea>
-        <button>Send</button>
+      <div class="contact" id="contact">
+        <div>
+          <h3>Contact me</h3>
+          <p class="para-contact">
+            Any questions or remarks? Just send me a message.
+          </p>
+          <label class="contact-label">Email</label>
+          <input
+            type="email"
+            id="contact-input"
+            placeholder="JohnDoe@gmail.com"
+          />
+          <label for="">Full Name</label>
+          <input type="text" id="contact-input" placeholder="John Doe" />
+          <label class="contact-label">Message</label>
+          <textarea
+            name=""
+            id="contact-message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button class="contact-button">Send</button>
+        </div>
       </div>
     </div>
   </body>

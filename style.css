@@ -27,7 +27,7 @@ body {
   align-items: center;
   overflow-x: hidden;
 
-  margin: 40rem 0;
+  margin: 52rem 0;
 }
 .Skills {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -109,7 +109,7 @@ body {
 
 .pic {
   width: 70vw;
-  height: 800px;
+  height: 600px;
 }
 
 @keyframes display {
@@ -137,15 +137,17 @@ body {
 .project-container {
   position: relative;
   width: 100vw;
-  height: 800px;
-  /* margin-top: 10vh; */
-  /* margin-bottom: 35vh; */
+  height: 600px;
+}
+.projects {
+  text-align: center;
+  padding: 5rem 5rem 0 5rem;
 }
 
 .project-container > img {
   position: absolute;
   top: 0;
-  left: calc(13% - 100px);
+  left: calc(10% - 100px);
   opacity: 0;
   animation: display 10s infinite;
 }
@@ -161,4 +163,44 @@ body {
 }
 .pic:nth-child(5) {
   animation-delay: 8s;
+}
+.contact-label,
+.contact-button {
+  display: block;
+}
+.contact-button {
+  background-color: #cfa1c7;
+  color: white;
+  border: none;
+  padding: 0.3rem 14rem;
+  font-size: 1rem;
+  border-radius: 3rem;
+  margin-top: 1.5rem;
+}
+#contact-input {
+  display: block;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 30rem;
+  background-color: #d5ccc7;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+.para-contact,
+.projects-para {
+  margin-bottom: 1.5rem;
+}
+#contact-message {
+  width: 30rem;
+  background-color: #d5ccc7;
+  display: block;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.contact {
+  margin: 0 5rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
 }
