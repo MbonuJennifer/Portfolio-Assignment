@@ -25,8 +25,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 
-  margin: 15rem 0;
+  margin: 40rem 0;
 }
 .Skills {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -104,4 +105,60 @@ body {
 .col-img {
   width: 35rem;
   height: 20rem;
+}
+
+.pic {
+  width: 70vw;
+  height: 800px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+.project-container {
+  position: relative;
+  width: 100vw;
+  height: 800px;
+  /* margin-top: 10vh; */
+  /* margin-bottom: 35vh; */
+}
+
+.project-container > img {
+  position: absolute;
+  top: 0;
+  left: calc(13% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+.pic:nth-child(2) {
+  animation-delay: 2s;
+}
+.pic:nth-child(3) {
+  animation-delay: 4s;
+}
+.pic:nth-child(4) {
+  animation-delay: 6s;
+}
+.pic:nth-child(5) {
+  animation-delay: 8s;
 }
